@@ -8,7 +8,10 @@ const cors_1 = __importDefault(require("cors"));
 const environments_1 = require("./utils/environments");
 const routes_1 = __importDefault(require("./routes"));
 const error_middleware_1 = require("./middlewares/error.middleware");
-const prodOrigins = ["http://localhost:3000"];
+const prodOrigins = [
+    "http://localhost:3000",
+    "https://voting-app-realtime-fe.vercel.app",
+];
 const devOrigins = [
     "http://localhost:3000",
     "http://localhost:5173",

@@ -5,7 +5,7 @@ import { authenticateSocket } from "../middlewares/auth.middleware";
 
 const prodOrigins = [
   "http://localhost:3000",
-  "https://billions-homz-frontend.vercel.app",
+  "https://voting-app-realtime-fe.vercel.app",
 ];
 const devOrigins = [
   "http://localhost:3000",

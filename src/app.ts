@@ -4,7 +4,10 @@ import { env } from "./utils/environments";
 import router from "./routes";
 import { errorHandler, notFoundHandler } from "./middlewares/error.middleware";
 
-const prodOrigins = ["http://localhost:3000"];
+const prodOrigins = [
+  "http://localhost:3000",
+  "https://voting-app-realtime-fe.vercel.app",
+];
 const devOrigins = [
   "http://localhost:3000",
   "http://localhost:5173",
